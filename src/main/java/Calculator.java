@@ -6,10 +6,13 @@ public class Calculator {
     }
     //la some de a et b
     public  double division(double a , double b){
-        if(b ==0){
-            return 0;
-        }
-        return a/b;
+             try {
+                 return a/b;
+
+             }catch (Exception e){
+                 e.getMessage();
+             }
+        return 0;
     }
     //la some de a et b
     public  double dultiplying(double a , double b){
