@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class TestCalculator {
+public class TestCalculator {
+
 }
